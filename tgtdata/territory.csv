@@ -1,0 +1,12 @@
+TerritoryId,Group,Country,Region
+1,North America,United States,Northwest
+2,North America,United States,Northeast
+3,North America,United States,Central
+4,North America,United States,Southwest
+5,North America,United States,Southeast
+6,North America,Canada,Canada
+7,Europe,France,France
+8,Europe,Germany,Germany
+9,Pacific,Australia,Australia
+10,Europe,United Kingdom,United Kingdom
+11,Corporate HQ,Corporate HQ,Corporate HQ

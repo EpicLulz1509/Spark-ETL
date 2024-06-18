@@ -1,0 +1,337 @@
+LocationId,LocationCity,StateProvince,CountryId,LocationZip
+1,Matraville,New South Wales,5,2036
+2,Langford,British Columbia,4,V9
+3,Lemon Grove,California,3,91945
+4,Oregon City,Oregon,3,97045
+5,Liverpool,England,6,L4 4HB
+6,Ingolstadt,Bayern,1,85049
+7,London,England,6,C2H 7AU
+8,Clackamas,Oregon,3,97015-6403
+9,Orleans,Loiret,2,45000
+10,Bell Gardens,California,3,90201
+11,Warrnambool,Victoria,5,3280
+12,Berlin,Saarland,1,12171
+13,York,England,6,YO15
+14,Byron,Georgia,3,31008
+15,Bellflower,California,3,90706
+16,High Wycombe,England,6,HP10 9QY
+17,Beaverton,Oregon,3,97005
+18,Paderborn,Hamburg,1,33041
+19,Newton,British Columbia,4,V2M1P1
+20,Redwood City,California,3,94063
+21,London,England,6,SW1P 2NU
+22,Cloverdale,South Australia,5,6105
+23,Solingen,Nordrhein-Westfalen,1,42651
+24,Paris,Seine (Paris),2,75013
+25,Berkshire,England,6,RG11 5TP
+26,Orly,Val de Marne,2,94310
+27,Tremblay-en-France,Seine Saint Denis,2,93290
+28,Drancy,Seine Saint Denis,2,93700
+29,Hervey Bay,Queensland,5,4655
+30,Sunbury,Victoria,5,3429
+31,Verrieres Le Buisson,Essonne,2,91370
+32,Shawnee,British Columbia,4,V9B 2C3
+33,London,England,6,SE1 8HL
+34,Colomiers,Garonne (Haute),2,31770
+35,Clearwater,Florida,3,33755
+36,Berlin,Hessen,1,14111
+37,Lieusaint,Seine et Marne,2,77127
+38,Bluffton,South Carolina,3,29910
+39,Charlotte,North Carolina,3,28202
+40,Chehalis,Washington,3,98532
+41,Frankfurt,Hessen,1,60323
+42,Lebanon,Oregon,3,97355
+43,Paris,Seine (Paris),2,75003
+44,Braintree,Massachusetts,3,2184
+45,Stoke-on-Trent,England,6,AS23
+46,M�nchen,Saarland,1,48001
+47,Imperial Beach,California,3,91932
+48,Chantilly,Virginia,3,20151
+49,York,England,6,Y024 1GF
+50,Bothell,Washington,3,98011
+51,Mill Valley,California,3,94941
+52,Maidenhead,England,6,SL67RJ
+53,Glendale,California,3,91203
+54,Marysville,Washington,3,98270
+55,Roissy en Brie,Seine et Marne,2,77680
+56,Newton,British Columbia,4,V2M1S6
+57,Lake Oswego,Oregon,3,97034
+58,St. Leonards,New South Wales,5,2065
+59,Calgary,Alberta,4,T2P 2G8
+60,Bremerton,Washington,3,98312
+61,Carrollton,Texas,3,75006
+62,Coronado,California,3,92118
+63,Versailles,Yveline,2,78000
+64,Runcorn,England,6,TY31
+65,Cincinnati,Ohio,3,45202
+66,Frankfurt am Main,Saarland,1,60061
+67,Bellingham,Washington,3,98225
+68,Yakima,Washington,3,98901
+69,Boulogne-sur-Mer,Pas de Calais,2,62200
+70,Bendigo,Victoria,5,3550
+71,Tacoma,Washington,3,98403
+72,Paris,Seine (Paris),2,75017
+73,Perth,South Australia,5,6006
+74,Camarillo,California,3,93010
+75,Woodland Hills,California,3,91364
+76,Birmingham,Alabama,3,35203
+77,Paris,Seine (Paris),2,75002
+78,Bury,England,6,PE17
+79,Saint Ouen,Loir et Cher,2,41100
+80,Langley,British Columbia,4,V3A 4R2
+81,Torrance,California,3,90505
+82,Royal Oak,British Columbia,4,V8X
+83,Esher-Molesey,England,6,EM15
+84,London,England,6,W10 6BL
+85,Oxon,England,6,OX16 8RS
+86,N. Vancouver,British Columbia,4,V7L 4J4
+87,Casper,Wyoming,3,82601
+88,Cranbourne,Victoria,5,3977
+89,Newton,British Columbia,4,V2M1N7
+90,Beverly Hills,California,3,90210
+91,Pantin,Seine Saint Denis,2,93500
+92,Oxford,England,6,OX14 4SE
+93,Paris,Seine (Paris),2,75009
+94,London,England,6,EC1R 0DU
+95,London,England,6,E17 6JF
+96,Port Orchard,Washington,3,98366
+97,Berlin,Nordrhein-Westfalen,1,14197
+98,Gateshead,England,6,GA10
+99,Boulogne-Billancourt,Hauts de Seine,2,92100
+100,Frankfurt am Main,Hamburg,1,60355
+101,Chalk Riber,Ontario,4,K0J 1J0
+102,Citrus Heights,California,3,95610
+103,Gold Coast,Queensland,5,4217
+104,Kirkland,Washington,3,98033
+105,Metz,Moselle,2,57000
+106,Burlingame,California,3,94010
+107,Long Beach,California,3,90802
+108,Newcastle upon Tyne,England,6,NT20
+109,Paris,Seine (Paris),2,75005
+110,Les Ulis,Essonne,2,91940
+111,Berlin,Hessen,1,14129
+112,M�nster,Saarland,1,48001
+113,Erlangen,Bayern,1,91054
+114,Spokane,Washington,3,99202
+115,Daly City,California,3,94015
+116,Burbank,Ohio,3,44214
+117,Corvallis,Oregon,3,97330
+118,Saint-Denis,Seine Saint Denis,2,93400
+119,Berlin,Hamburg,1,12311
+120,Roncq,Nord,2,59223
+121,Hannover,Nordrhein-Westfalen,1,30601
+122,Issaquah,Washington,3,98027
+123,Warrington,England,6,WA3 7BH
+124,Eilenburg,Brandenburg,1,4838
+125,London,England,6,SW19 3RU
+126,Leeds,England,6,LE18
+127,Townsville,Queensland,5,4810
+128,York,England,6,Y03 4TN
+129,Berlin,Hessen,1,13441
+130,Cedar Park,Texas,3,78613
+131,Lancaster,England,6,LA1 1LN
+132,Saarbr�cken,Saarland,1,66001
+133,Concord,California,3,94519
+134,San Francisco,California,3,94109
+135,Villeneuve-d'Ascq,Nord,2,59491
+136,Sedro Woolley,Washington,3,98284
+137,Chatou,Yveline,2,78400
+138,Olympia,Washington,3,98501
+139,Central Valley,New York,3,10917
+140,Goulburn,New South Wales,5,2580
+141,Saint Germain en Laye,Yveline,2,78100
+142,Frankfurt am Main,Saarland,1,60075
+143,S�vres,Hauts de Seine,2,92310
+144,Stuttgart,Saarland,1,70452
+145,Metchosin,British Columbia,4,V9
+146,Columbus,Georgia,3,31901
+147,Barstow,California,3,92311
+148,Caloundra,Queensland,5,4551
+149,Offenbach,Saarland,1,63009
+150,Grossmont,California,3,91941
+151,Chula Vista,California,3,91910
+152,Novato,California,3,94947
+153,Fremont,California,3,94536
+154,Paris,Seine (Paris),2,75007
+155,City Of Commerce,California,3,90040
+156,Cedar City,Utah,3,84720
+157,Bountiful,Utah,3,84010
+158,Morangis,Essonne,2,91420
+159,Wokingham,England,6,RG41 1QW
+160,Saarlouis,Saarland,1,66740
+161,Columbus,Ohio,3,43215
+162,Puyallup,Washington,3,98371
+163,North Ryde,New South Wales,5,2113
+164,Paris,Seine (Paris),2,75016
+165,Walla Walla,Washington,3,99362
+166,San Gabriel,California,3,91776
+167,W. York,England,6,BD1 4SJ
+168,Berlin,Nordrhein-Westfalen,1,10501
+169,Bellevue,Washington,3,98004
+170,Brisbane,Queensland,5,4000
+171,Westminster,British Columbia,4,V3L 1H4
+172,London,England,6,W1N 9FA
+173,London,England,6,W1Y 3RA
+174,Branch,Minnesota,3,55056
+175,Basingstoke Hants,England,6,RG24 8PL
+176,Suresnes,Hauts de Seine,2,92150
+177,Seattle,Washington,3,98104
+178,Lille,Nord,2,59000
+179,Newcastle,New South Wales,5,2300
+180,Paris,Seine (Paris),2,75006
+181,Canoga Park,California,3,91303
+182,Roubaix,Nord,2,59100
+183,Reading,England,6,RG7 5H7
+184,North Sydney,New South Wales,5,2055
+185,Duesseldorf,Hessen,1,40434
+186,Lakewood,California,3,90712
+187,Milsons Point,New South Wales,5,2061
+188,Paderborn,Nordrhein-Westfalen,1,33098
+189,Bobigny,Seine Saint Denis,2,93000
+190,Santa Monica,California,3,90401
+191,Paris,Seine (Paris),2,75010
+192,Gloucestershire,England,6,GL7 1RY
+193,London,England,6,SW8 4BG
+194,Leipzig,Nordrhein-Westfalen,1,4139
+195,East Brisbane,Queensland,5,4169
+196,W. Linn,Oregon,3,97068
+197,Saint Ouen,Charente-Maritime,2,17490
+198,San Carlos,California,3,94070
+199,Frankfurt,Bayern,1,91480
+200,Billericay,England,6,CM11
+201,Cambridge,England,6,CB4 4BZ
+202,Biloxi,Mississippi,3,39530
+203,Berkeley,California,3,94704
+204,Carson,California,3,90746
+205,Palo Alto,California,3,94303
+206,Stuttgart,Saarland,1,70511
+207,Milton Keynes,England,6,MK8 8DF
+208,South Melbourne,Victoria,5,3205
+209,Neunkirchen,Saarland,1,66578
+210,Burien,Washington,3,98168
+211,Milwaukie,Oregon,3,97222
+212,London,England,6,SW8 1XD
+213,Burnaby,British Columbia,4,V3J 6Z3
+214,Berlin,Hessen,1,12171
+215,Dresden,Hessen,1,1071
+216,National City,California,3,91950
+217,M�nchen,Nordrhein-Westfalen,1,80074
+218,Warrington,England,6,WA1
+219,West Covina,California,3,91791
+220,Shawnee,British Columbia,4,V9B 5T2
+221,Lavender Bay,New South Wales,5,2060
+222,Dunkerque,Nord,2,59140
+223,Essen,Hamburg,1,45001
+224,Oakland,California,3,94611
+225,Milton Keynes,England,6,MK8 8ZD
+226,M�hlheim,Hamburg,1,63151
+227,Carol Stream,Illinois,3,60188
+228,Braunschweig,Nordrhein-Westfalen,1,38001
+229,Silverwater,New South Wales,5,2264
+230,Colombes,Hauts de Seine,2,92700
+231,La Jolla,California,3,92806
+232,Courbevoie,Hauts de Seine,2,92400
+233,Hawthorne,Queensland,5,4171
+234,Geelong,Victoria,5,3220
+235,Lincoln Acres,California,3,91950
+236,Colma,California,3,94014
+237,Woolston,England,6,WA1 4SY
+238,Cerritos,California,3,90703
+239,Billings,Montana,3,59101
+240,Port Hammond,British Columbia,4,V6B 3P7
+241,Werne,Nordrhein-Westfalen,1,59368
+242,Saint Ouen,Somme,2,80610
+243,Bonn,Nordrhein-Westfalen,1,53131
+244,Haney,British Columbia,4,V2W 1W2
+245,Malabar,New South Wales,5,2036
+246,Newport Beach,California,3,92625
+247,Woodburn,Oregon,3,97071
+248,Hobart,Tasmania,5,7001
+249,Santa Cruz,California,3,95062
+250,Darmstadt,Hessen,1,64283
+251,Bonn,Hamburg,1,53131
+252,London,England,6,SW6 SBY
+253,Paris,Seine (Paris),2,75012
+254,Berks,England,6,SL4 1RH
+255,Bracknell,England,6,RG12 8TB
+256,Sydney,New South Wales,5,1002
+257,Kassel,Hessen,1,34117
+258,Cliffside,British Columbia,4,V8Y 1L1
+259,Grevenbroich,Bayern,1,41485
+260,Renton,Washington,3,98055
+261,Berlin,Hamburg,1,10210
+262,Chicago,Illinois,3,60610
+263,Bonn,Hamburg,1,53001
+264,M�nchen,Hessen,1,80074
+265,Clarkston,Georgia,3,30021
+266,Clackamas,Oregon,3,97015
+267,Los Angeles,California,3,90012
+268,Bottrop,Nordrhein-Westfalen,1,46236
+269,Chandler,Arizona,3,85225
+270,Frankfurt am Main,Hamburg,1,60082
+271,Lynnwood,Washington,3,98036
+272,Cergy,Val d'Oise,2,95000
+273,Cheyenne,Wyoming,3,82001
+274,Salem,Oregon,3,97301
+275,Redmond,Washington,3,98052
+276,Lane Cove,New South Wales,5,1597
+277,Edmonds,Washington,3,98020
+278,Branson,Missouri,3,65616
+279,Croix,Nord,2,59170
+280,Berlin,Hamburg,1,14111
+281,Clay,New York,3,13041
+282,Hamburg,Hamburg,1,20354
+283,Berlin,Hamburg,1,10791
+284,San Diego,California,3,92102
+285,Rhodes,New South Wales,5,2138
+286,Paris,Seine (Paris),2,75019
+287,Berlin,Saarland,1,12311
+288,Cheektowaga,New York,3,14227
+289,Spring Valley,California,3,91977
+290,Sulzbach Taunus,Saarland,1,66272
+291,Kiel,Saarland,1,24044
+292,Poing,Saarland,1,66041
+293,Bradenton,Florida,3,34205
+294,Rockhampton,Queensland,5,4700
+295,Portland,Oregon,3,97205
+296,Birmingham,England,6,B29 6SL
+297,Hamburg,Hessen,1,22001
+298,Seaford,Victoria,5,3198
+299,Watford,England,6,WA3
+300,Paris La Defense,Hauts de Seine,2,92081
+301,Ballard,Washington,3,98107
+302,Westminster,British Columbia,4,V3L 1E7
+303,Vancouver,British Columbia,4,V7L 4J4
+304,Sooke,British Columbia,4,V0
+305,Wollongong,New South Wales,5,2500
+306,Coffs Harbour,New South Wales,5,2450
+307,London,England,6,W1X3SE
+308,Hof,Bayern,1,95010
+309,Downey,California,3,90241
+310,Darlinghurst,New South Wales,5,2010
+311,West Sussex,England,6,RH15 9UD
+312,Oak Bay,British Columbia,4,V8P
+313,London,England,6,W1V 5RN
+314,M�nchen,Hamburg,1,80074
+315,Cheltenham,England,6,GL50
+316,College Station,Texas,3,77840
+317,Duesseldorf,Hessen,1,40605
+318,Campbellsville,Kentucky,3,42718
+319,Baytown,Texas,3,77520
+320,Melton,Victoria,5,3337
+321,Port Macquarie,New South Wales,5,2444
+322,Everett,Washington,3,98201
+323,Springwood,New South Wales,5,2777
+324,Victoria,British Columbia,4,V8V
+325,Salzgitter,Hessen,1,38231
+326,El Cajon,California,3,92020
+327,Peterborough,England,6,PB12
+328,Findon,South Australia,5,5023
+329,Newton,British Columbia,4,V2L3W8
+330,Paris,Seine (Paris),2,75008
+331,Berlin,Saarland,1,14197
+332,Melbourne,Victoria,5,3000
+333,Oxford,England,6,OX1
+334,Burbank,California,3,91502
+335,Shawnee,British Columbia,4,V8Z 4N5
+336,Kirkby,England,6,KB9
