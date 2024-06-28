@@ -1,0 +1,295 @@
+ProductId,ProductName,ItemSku,ProductColor
+1,Minipump,PU-0452,NA
+2,LL Road Frame - Black 44,FR-R38B-44,Black
+3,HL Mountain Rear Wheel,RW-M928,Black
+4,Road-650 Red 60,BK-R50R-60,Red
+5,Chain,CH-0234,Silver
+6,ML Road Handlebars,HB-R720,NA
+7,AWC Logo Cap,CA-1098,Multi
+8,HL Mountain Frame - Silver 38,FR-M94S-38,Silver
+9,Mountain Bike Socks L,SO-B909-L,White
+10,Long-Sleeve Logo Jersey XL,LJ-0192-X,Multi
+11,LL Touring Frame - Yellow 44,FR-T67Y-44,Yellow
+12,Mountain-400-W Silver 46,BK-M38S-46,Silver
+13,Sport-100 Helmet Red,HL-U509-R,Red
+14,ML Road Frame - Red 48,FR-R72R-48,Red
+15,ML Road Frame - Red 52,FR-R72R-52,Red
+16,ML Road Frame-W - Yellow 38,FR-R72Y-38,Yellow
+17,HL Road Frame - Black 48,FR-R92B-48,Black
+18,ML Touring Seat/Saddle,SE-T762,NA
+19,Touring-3000 Blue 62,BK-T18U-62,Blue
+20,HL Touring Seat/Saddle,SE-T924,NA
+21,LL Road Frame - Black 52,FR-R38B-52,Black
+22,Road-550-W Yellow 40,BK-R64Y-40,Yellow
+23,Road-250 Black 52,BK-R89B-52,Black
+24,ML Mountain Frame-W - Silver 42,FR-M63S-42,Silver
+25,Road-250 Red 58,BK-R89R-58,Red
+26,Women's Tights M,TG-W091-M,Black
+27,LL Road Frame - Red 60,FR-R38R-60,Red
+28,Touring Rear Wheel,RW-T905,Black
+29,LL Mountain Front Wheel,FW-M423,Black
+30,ML Mountain Front Wheel,FW-M762,Black
+31,Road-650 Black 44,BK-R50B-44,Black
+32,ML Road Tire,TI-R628,NA
+33,ML Bottom Bracket,BB-8107,NA
+34,Touring-3000 Yellow 58,BK-T18Y-58,Yellow
+35,HL Touring Frame - Blue 46,FR-T98U-46,Blue
+36,Road-150 Red 48,BK-R93R-48,Red
+37,Mountain-100 Silver 44,BK-M82S-44,Silver
+38,LL Touring Frame - Yellow 58,FR-T67Y-58,Yellow
+39,Road-250 Black 44,BK-R89B-44,Black
+40,LL Road Seat/Saddle,SE-R581,NA
+41,HL Touring Frame - Yellow 54,FR-T98Y-54,Yellow
+42,Road-550-W Yellow 42,BK-R64Y-42,Yellow
+43,LL Road Handlebars,HB-R504,NA
+44,LL Mountain Rear Wheel,RW-M423,Black
+45,Road-150 Red 44,BK-R93R-44,Red
+46,Mountain Bottle Cage,BC-M005,NA
+47,LL Touring Frame - Yellow 50,FR-T67Y-50,Yellow
+48,Road-350-W Yellow 44,BK-R79Y-44,Yellow
+49,Mountain-500 Silver 42,BK-M18S-42,Silver
+50,Mountain-300 Black 48,BK-M47B-48,Black
+51,ML Mountain Handlebars,HB-M763,NA
+52,Long-Sleeve Logo Jersey L,LJ-0192-L,Multi
+53,ML Road Frame-W - Yellow 44,FR-R72Y-44,Yellow
+54,Touring-3000 Yellow 44,BK-T18Y-44,Yellow
+55,Women's Tights L,TG-W091-L,Black
+56,HL Mountain Tire,TI-M823,NA
+57,Touring-1000 Yellow 50,BK-T79Y-50,Yellow
+58,LL Road Frame - Red 58,FR-R38R-58,Red
+59,ML Mountain Rear Wheel,RW-M762,Black
+60,ML Mountain Frame - Black 48,FR-M63B-48,Black
+61,HL Road Frame - Black 52,FR-R92B-52,Black
+62,ML Road Pedal,PD-R563,Silver/Black
+63,ML Headset,HS-2451,NA
+64,LL Mountain Frame - Black 40,FR-M21B-40,Black
+65,ML Fork,FK-5136,NA
+66,Racing Socks M,SO-R809-M,White
+67,Half-Finger Gloves S,GL-H102-S,Black
+68,LL Touring Frame - Blue 54,FR-T67U-54,Blue
+69,LL Road Pedal,PD-R347,Silver/Black
+70,Mountain-100 Silver 48,BK-M82S-48,Silver
+71,Fender Set - Mountain,FE-6654,NA
+72,Cable Lock,LO-C100,NA
+73,HL Mountain Handlebars,HB-M918,NA
+74,ML Mountain Frame - Black 40,FR-M63B-40,Black
+75,ML Road Frame - Red 60,FR-R72R-60,Red
+76,HL Road Front Wheel,FW-R820,Black
+77,LL Road Frame - Black 58,FR-R38B-58,Black
+78,HL Mountain Frame - Silver 44,FR-M94S-44,Silver
+79,Front Brakes,FB-9873,Silver
+80,LL Road Frame - Red 52,FR-R38R-52,Red
+81,Short-Sleeve Classic Jersey M,SJ-0194-M,Yellow
+82,Taillights - Battery-Powered,LT-T990,NA
+83,Classic Vest M,VE-C304-M,Blue
+84,Road-350-W Yellow 40,BK-R79Y-40,Yellow
+85,Road Bottle Cage,BC-R205,NA
+86,HL Road Frame - Red 48,FR-R92R-48,Red
+87,Road-250 Black 48,BK-R89B-48,Black
+88,HL Headset,HS-3479,NA
+89,HL Mountain Frame - Silver 46,FR-M94S-46,Silver
+90,ML Road Front Wheel,FW-R762,Black
+91,Road-650 Black 62,BK-R50B-62,Black
+92,Mountain-100 Black 38,BK-M82B-38,Black
+93,ML Road Seat/Saddle,SE-R908,NA
+94,LL Road Frame - Black 48,FR-R38B-48,Black
+95,Road-250 Red 44,BK-R89R-44,Red
+96,Men's Sports Shorts M,SH-M897-M,Black
+97,Mountain-500 Silver 44,BK-M18S-44,Silver
+98,Mountain-300 Black 40,BK-M47B-40,Black
+99,Mountain-500 Black 42,BK-M18B-42,Black
+100,ML Road Frame - Red 58,FR-R72R-58,Red
+101,ML Road Frame-W - Yellow 40,FR-R72Y-40,Yellow
+102,Rear Brakes,RB-9231,Silver
+103,LL Mountain Frame - Silver 40,FR-M21S-40,Silver
+104,Road-450 Red 44,BK-R68R-44,Red
+105,Road-650 Black 52,BK-R50B-52,Black
+106,Road-250 Red 48,BK-R89R-48,Red
+107,Mountain-400-W Silver 38,BK-M38S-38,Silver
+108,Mountain-200 Silver 38,BK-M68S-38,Silver
+109,Touring Front Wheel,FW-T905,Black
+110,Road-450 Red 60,BK-R68R-60,Red
+111,LL Crankset,CS-4759,Black
+112,HL Fork,FK-9939,NA
+113,Road Tire Tube,TT-R982,NA
+114,Touring-1000 Blue 50,BK-T79U-50,Blue
+115,Mountain-500 Black 52,BK-M18B-52,Black
+116,HL Mountain Frame - Silver 48,FR-M94S-52,Silver
+117,Mountain-200 Silver 46,BK-M68S-46,Silver
+118,Touring Tire Tube,TT-T092,NA
+119,HL Road Frame - Red 56,FR-R92R-56,Red
+120,Road-750 Black 48,BK-R19B-48,Black
+121,LL Touring Frame - Yellow 62,FR-T67Y-62,Yellow
+122,Touring-2000 Blue 60,BK-T44U-60,Blue
+123,Men's Sports Shorts L,SH-M897-L,Black
+124,HL Mountain Frame - Silver 42,FR-M94S-42,Silver
+125,All-Purpose Bike Stand,ST-1401,NA
+126,Touring-3000 Blue 50,BK-T18U-50,Blue
+127,Mountain-100 Black 42,BK-M82B-42,Black
+128,Road-550-W Yellow 48,BK-R64Y-48,Yellow
+129,Classic Vest S,VE-C304-S,Blue
+130,Touring-1000 Yellow 54,BK-T79Y-54,Yellow
+131,Mountain-400-W Silver 42,BK-M38S-42,Silver
+132,HL Mountain Frame - Black 46,FR-M94B-46,Black
+133,LL Touring Handlebars,HB-T721,NA
+134,LL Road Frame - Red 44,FR-R38R-44,Red
+135,Road-150 Red 56,BK-R93R-56,Red
+136,Mountain-300 Black 44,BK-M47B-44,Black
+137,HL Touring Frame - Yellow 60,FR-T98Y-60,Yellow
+138,ML Mountain Seat/Saddle,SE-M798,NA
+139,Touring-3000 Yellow 62,BK-T18Y-62,Yellow
+140,Mountain-100 Black 48,BK-M82B-48,Black
+141,ML Mountain Frame - Black 44,FR-M63B-44,Black
+142,HL Road Seat/Saddle,SE-R995,NA
+143,Touring-1000 Blue 60,BK-T79U-60,Blue
+144,HL Mountain Frame - Black 44,FR-M94B-44,Black
+145,LL Touring Frame - Blue 58,FR-T67U-58,Blue
+146,Headlights - Dual-Beam,LT-H902,NA
+147,LL Bottom Bracket,BB-7421,NA
+148,HL Road Frame - Red 58,FR-R92R-58,Red
+149,HL Mountain Frame - Black 48,FR-M94B-48,Black
+150,Touring-1000 Yellow 60,BK-T79Y-60,Yellow
+151,HL Mountain Frame - Black 42,FR-M94B-42,Black
+152,HL Touring Frame - Yellow 46,FR-T98Y-46,Yellow
+153,LL Mountain Pedal,PD-M282,Silver/Black
+154,Road-350-W Yellow 48,BK-R79Y-48,Yellow
+155,Mountain-500 Black 44,BK-M18B-44,Black
+156,LL Road Frame - Red 48,FR-R38R-48,Red
+157,ML Mountain Frame - Black 38,FR-M63B-38,Black
+158,Road-750 Black 44,BK-R19B-44,Black
+159,Classic Vest L,VE-C304-L,Blue
+160,HL Road Pedal,PD-R853,Silver/Black
+161,Touring-2000 Blue 46,BK-T44U-46,Blue
+162,HL Touring Handlebars,HB-T928,NA
+163,Touring-3000 Yellow 54,BK-T18Y-54,Yellow
+164,LL Road Frame - Black 60,FR-R38B-60,Black
+165,Mountain-400-W Silver 40,BK-M38S-40,Silver
+166,Road-650 Black 58,BK-R50B-58,Black
+167,ML Mountain Frame-W - Silver 38,FR-M63S-38,Silver
+168,LL Road Frame - Red 62,FR-R38R-62,Red
+169,HL Mountain Frame - Black 38,FR-M94B-38,Black
+170,Water Bottle - 30 oz.,WB-H098,NA
+171,Short-Sleeve Classic Jersey L,SJ-0194-L,Yellow
+172,LL Mountain Frame - Silver 42,FR-M21S-42,Silver
+173,LL Mountain Frame - Silver 48,FR-M21S-48,Silver
+174,LL Mountain Tire,TI-M267,NA
+175,Racing Socks L,SO-R809-L,White
+176,HL Mountain Front Wheel,FW-M928,Black
+177,Road-650 Red 44,BK-R50R-44,Red
+178,Road-650 Red 48,BK-R50R-48,Red
+179,ML Road Rear Wheel,RW-R762,Black
+180,HL Road Rear Wheel,RW-R820,Black
+181,LL Touring Frame - Yellow 54,FR-T67Y-54,Yellow
+182,Touring-3000 Yellow 50,BK-T18Y-50,Yellow
+183,Headlights - Weatherproof,LT-H903,NA
+184,Short-Sleeve Classic Jersey XL,SJ-0194-X,Yellow
+185,Touring-1000 Blue 54,BK-T79U-54,Blue
+186,Mountain-500 Silver 40,BK-M18S-40,Silver
+187,Road-150 Red 52,BK-R93R-52,Red
+188,Front Derailleur,FD-2342,Silver
+189,Men's Sports Shorts S,SH-M897-S,Black
+190,Road-250 Red 52,BK-R89R-52,Red
+191,Road-550-W Yellow 38,BK-R64Y-38,Yellow
+192,LL Road Frame - Black 62,FR-R38B-62,Black
+193,Mountain-300 Black 38,BK-M47B-38,Black
+194,Long-Sleeve Logo Jersey M,LJ-0192-M,Multi
+195,HL Touring Frame - Blue 50,FR-T98U-50,Blue
+196,Touring-3000 Blue 58,BK-T18U-58,Blue
+197,Road-450 Red 52,BK-R68R-52,Red
+198,Road-650 Red 58,BK-R50R-58,Red
+199,Bike Wash - Dissolver,CL-9009,NA
+200,Road-550-W Yellow 44,BK-R64Y-44,Yellow
+201,Women's Mountain Shorts L,SH-W890-L,Black
+202,Hitch Rack - 4-Bike,RA-H123,NA
+203,Full-Finger Gloves M,GL-F110-M,Black
+204,LL Fork,FK-1639,NA
+205,HL Road Tire,TI-R982,NA
+206,ML Road Frame - Red 44,FR-R72R-44,Red
+207,HL Road Handlebars,HB-R956,NA
+208,Touring-Panniers Large,PA-T100,Grey
+209,HL Crankset,CS-9183,Black
+210,Hydration Pack - 70 oz.,HY-1023-70,Silver
+211,Road-450 Red 58,BK-R68R-58,Red
+212,Sport-100 Helmet Blue,HL-U509-B,Blue
+213,HL Touring Frame - Blue 54,FR-T98U-54,Blue
+214,HL Touring Frame - Blue 60,FR-T98U-60,Blue
+215,HL Mountain Pedal,PD-M562,Silver/Black
+216,Road-150 Red 62,BK-R93R-62,Red
+217,ML Road Frame-W - Yellow 42,FR-R72Y-42,Yellow
+218,HL Road Frame - Black 62,FR-R92B-62,Black
+219,LL Mountain Frame - Silver 44,FR-M21S-44,Silver
+220,ML Mountain Pedal,PD-M340,Silver/Black
+221,Half-Finger Gloves M,GL-H102-M,Black
+222,Road-450 Red 48,BK-R68R-48,Red
+223,Mountain-100 Silver 38,BK-M82S-38,Silver
+224,LL Road Front Wheel,FW-R623,Black
+225,ML Road Frame-W - Yellow 48,FR-R72Y-48,Yellow
+226,Road-250 Black 58,BK-R89B-58,Black
+227,Sport-100 Helmet Black,HL-U509,Black
+228,Men's Bib-Shorts M,SB-M891-M,Multi
+229,HL Road Frame - Red 62,FR-R92R-62,Red
+230,HL Touring Frame - Yellow 50,FR-T98Y-50,Yellow
+231,Mountain-500 Black 40,BK-M18B-40,Black
+232,Women's Mountain Shorts M,SH-W890-M,Black
+233,ML Mountain Tire,TI-M602,NA
+234,Mountain-500 Silver 52,BK-M18S-52,Silver
+235,Mountain-500 Black 48,BK-M18B-48,Black
+236,Mountain-100 Silver 42,BK-M82S-42,Silver
+237,Full-Finger Gloves S,GL-F110-S,Black
+238,Mountain-200 Silver 42,BK-M68S-42,Silver
+239,LL Touring Frame - Blue 50,FR-T67U-50,Blue
+240,LL Mountain Frame - Black 44,FR-M21B-44,Black
+241,Mountain Bike Socks M,SO-B909-M,White
+242,LL Mountain Handlebars,HB-M243,NA
+243,Full-Finger Gloves L,GL-F110-L,Black
+244,LL Mountain Frame - Black 48,FR-M21B-48,Black
+245,LL Touring Frame - Blue 44,FR-T67U-44,Blue
+246,Mountain-100 Black 44,BK-M82B-44,Black
+247,Touring-3000 Blue 54,BK-T18U-54,Blue
+248,Road-650 Red 62,BK-R50R-62,Red
+249,Road-650 Black 60,BK-R50B-60,Black
+250,LL Touring Frame - Blue 62,FR-T67U-62,Blue
+251,Touring Tire,TI-T723,NA
+252,HL Road Frame - Black 44,FR-R92B-44,Black
+253,ML Mountain Frame-W - Silver 40,FR-M63S-40,Silver
+254,LL Touring Seat/Saddle,SE-T312,NA
+255,LL Road Tire,TI-R092,NA
+256,Touring Pedal,PD-T852,Silver/Black
+257,Touring-1000 Blue 46,BK-T79U-46,Blue
+258,Road-650 Red 52,BK-R50R-52,Red
+259,HL Mountain Seat/Saddle,SE-M940,NA
+260,Mountain Tire Tube,TT-M928,NA
+261,ML Crankset,CS-6583,Black
+262,Touring-2000 Blue 50,BK-T44U-50,Blue
+263,Touring-3000 Blue 44,BK-T18U-44,Blue
+264,Rear Derailleur,RD-2308,Silver
+265,ML Mountain Frame-W - Silver 46,FR-M63S-46,Silver
+266,Road-650 Black 48,BK-R50B-48,Black
+267,Mountain-200 Black 42,BK-M68B-42,Black
+268,LL Headset,HS-0296,NA
+269,Men's Bib-Shorts S,SB-M891-S,Multi
+270,Patch Kit/8 Patches,PK-7098,NA
+271,Road-750 Black 58,BK-R19B-58,Black
+272,Long-Sleeve Logo Jersey S,LJ-0192-S,Multi
+273,Men's Bib-Shorts L,SB-M891-L,Multi
+274,Women's Mountain Shorts S,SH-W890-S,Black
+275,LL Mountain Frame - Black 52,FR-M21B-52,Black
+276,LL Mountain Seat/Saddle,SE-M236,NA
+277,Mountain-200 Black 38,BK-M68B-38,Black
+278,Mountain-200 Black 46,BK-M68B-46,Black
+279,Men's Sports Shorts XL,SH-M897-X,Black
+280,Half-Finger Gloves L,GL-H102-L,Black
+281,Short-Sleeve Classic Jersey S,SJ-0194-S,Yellow
+282,Touring-1000 Yellow 46,BK-T79Y-46,Yellow
+283,Mountain-500 Silver 48,BK-M18S-48,Silver
+284,LL Road Rear Wheel,RW-R623,Black
+285,Road-350-W Yellow 42,BK-R79Y-42,Yellow
+286,Mountain Pump,PU-M044,NA
+287,Touring-2000 Blue 54,BK-T44U-54,Blue
+288,HL Road Frame - Red 52,FR-R92R-52,Red
+289,HL Bottom Bracket,BB-9108,NA
+290,HL Road Frame - Red 44,FR-R92R-44,Red
+291,LL Mountain Frame - Black 42,FR-M21B-42,Black
+292,Women's Tights S,TG-W091-S,Black
+293,Road-750 Black 52,BK-R19B-52,Black
+294,LL Mountain Frame - Silver 52,FR-M21S-52,Silver

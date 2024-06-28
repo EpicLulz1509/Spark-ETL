@@ -13,13 +13,18 @@ file_type = "csv"
 first_row_is_header = "True"
 delimiter = ","
 
-cust_schema = customer_schema() 
+def createIndCustomerTable(path):
+    
+    # path = 'tgtdata\ind_customer.csv'
+    cust_schema = customer_schema() 
 
-customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata\CustomerData\CustomerData.csv")
+    customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata\CustomerData\CustomerData.csv")
 
-individual_customer_target_df = customer_data_df.select(F.col("CustomerId"), F.col("Customer"))
-individual_customer_target_df.distinct()
-
-individual_customer_target_df.toPandas().to_csv('tgtdata\ind_customer.csv', index=False)
+    individual_customer_target_df = customer_data_df.select(F.col("CustomerId"), F.col("Customer"))
+    individual_customer_target_df.distinct()
+    
+    individual_customer_target_df.toPandas().to_csv(path, index=False)
+    
+    return individual_customer_target_df
 
 # df.write.format_csv
