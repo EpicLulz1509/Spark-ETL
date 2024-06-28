@@ -18,7 +18,7 @@ def createIndCustomerTable(path):
     # path = 'tgtdata\ind_customer.csv'
     cust_schema = customer_schema() 
 
-    customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata\CustomerData\CustomerData.csv")
+    customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata/CustomerDat/CustomerData.csv")
 
     individual_customer_target_df = customer_data_df.select(F.col("CustomerId"), F.col("Customer"))
     individual_customer_target_df.distinct()
