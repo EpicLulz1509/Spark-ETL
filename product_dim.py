@@ -17,10 +17,10 @@ def createProductDimTable(path):
     
     product_schema2 = product_schema()
     
-    # path = 'tgtdata\product_dim.csv'
+    # path = 'tgtdata/product_dim.csv'
 
-    product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema2).load("srcdata\ProductData\ProductData.csv")
-    product_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata\product.csv")
+    product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema2).load("srcdata/ProductData/ProductData.csv")
+    product_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata/product.csv")
 
     product_dim_category_target_df = product_data_df.select(F.col("Category"), F.col("SKU"), F.col("Subcategory"), F.col("Model")).join(product_target_df, F.col("SKU") == F.col("ItemSku"))
     product_dim_category_target_df = product_dim_category_target_df.select(F.col("ProductId"), F.col("Model"), F.col("Category"), F.col("Subcategory"))
