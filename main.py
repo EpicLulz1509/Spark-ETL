@@ -18,10 +18,10 @@ path_product = 'Product.csv'
 path_product_dim = 'ProductDim.csv'
 
 def createTablesSet1():
-    customer_df = createCustomerTable(f"{local}\{path_customer}")
-    ind_customer_df = createIndCustomerTable(f"{local}\{path_ind_customer}")
-    product_df = createProductTable(f"{local}\{path_product}")
-    product_dim_df = createProductDimTable(f"{local}\{path_product_dim}")
+    customer_df = createCustomerTable(f"{local}/{path_customer}")
+    ind_customer_df = createIndCustomerTable(f"{local}/{path_ind_customer}")
+    product_df = createProductTable(f"{local}/{path_product}")
+    product_dim_df = createProductDimTable(f"{local}/{path_product_dim}")
     
     save_blob(customer_df, f"{path_customer}")
     save_blob(ind_customer_df, f"{path_ind_customer}")
