@@ -15,12 +15,12 @@ delimiter = ","
 
 def createProductTable(path):
     
-    # path = 'tgtdata\product.csv'
+    # path = 'tgtdata/product.csv'
 
     product_schema1 = product_schema()
 
-    product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema1).load("srcdata\ProductData\ProductData.csv")
-    item_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata\item.csv")
+    product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema1).load("srcdata/ProductData/ProductData.csv")
+    item_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata/item.csv")
 
     product_target_df = product_data_df.select(F.col("Product"), F.col("SKU"), F.col("Color")).join(item_target_df, F.col("SKU") == F.col("ItemSku"))
     product_target_df = product_target_df.select(F.col("Product").alias("ProductName"), F.col("SKU").alias("ItemSku"), F.col("Color").alias("ProductColor"))
