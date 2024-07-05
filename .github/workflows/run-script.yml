@@ -32,4 +32,4 @@ jobs:
       - name: Run script
         run: python main.py 
       - name: Run dashboard
-        run: python dashboard.py 
+        run: streamlit run dashboard.py 
