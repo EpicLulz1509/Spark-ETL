@@ -19,7 +19,7 @@ def createLocationTable(path):
     cust_schema = customer_schema()
     sales_terr_schema = sales_territory_schema()
 
-    customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata\CustomerData\CustomerData.csv")
+    customer_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(cust_schema).load("srcdata\\CustomerData\\CustomerData.csv")
     sales_territory_df = spark.read.format(file_type).option("sep", delimiter).schema(sales_terr_schema).load("srcdata\SalesTerritory\SalesTerritory.csv")
     country_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata\country.csv")
 
