@@ -4,9 +4,9 @@ import io
 import os
 
 # Define your Azure Blob Storage account details
-account_name = 'basic123'
-account_key = '5HI0CB8oYQ2oigiJ/vE/HtDu76sNMqyiXRy0FYITJQlOn3BJQKfiLCbAHYRxBEtOtocYqpbAKJc0+ASt0gquWw=='
-container_name = 'target-tables'
+account_name = os.environ["ACCOUNT_NAME"]
+account_key = os.environ["ACCOUNT_KEY"]
+container_name = os.environ["CONTAINER_NAME"]
 # blob_name = 'newvirtual.csv'
 df = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
 
