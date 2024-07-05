@@ -1,9 +1,10 @@
 from azure.storage.blob import ContainerClient
 from io import StringIO
 import pandas as pd
+import os 
 
-conn_str = "DefaultEndpointsProtocol=https;AccountName=basic123;AccountKey=5HI0CB8oYQ2oigiJ/vE/HtDu76sNMqyiXRy0FYITJQlOn3BJQKfiLCbAHYRxBEtOtocYqpbAKJc0+ASt0gquWw==;EndpointSuffix=core.windows.net"
-container_name = "target-tables"
+conn_str = os.environ["CONN_STR"]
+container_name = os.environ["CONTAINER_NAME"]
 blob_name = "customer.csv"
 
 # Define your Azure Blob Storage account details
