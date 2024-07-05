@@ -5,7 +5,7 @@ import os
 
 # Define your Azure Blob Storage account details
 account_name = 'basic123'
-account_key = 'FZfgtdhAtaFHEnKhOr6Z1PuSnb/LWkxLjj1KWpUgn99ZTS3k9GhrITHKsA0nrTEYy4KsaivLx5RR+AStneR9Sg=='
+account_key = '5HI0CB8oYQ2oigiJ/vE/HtDu76sNMqyiXRy0FYITJQlOn3BJQKfiLCbAHYRxBEtOtocYqpbAKJc0+ASt0gquWw=='
 container_name = 'target-tables'
 # blob_name = 'newvirtual.csv'
 df = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
@@ -18,7 +18,7 @@ def save_blob(targetdf, blob_name):
     print("Target table: ")
     
     print(targetdf)
-    print(type(targetdf))
+    print(type(targetdf))   
     
     print("Azure blob: ")
     

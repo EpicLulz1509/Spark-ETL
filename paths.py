@@ -1,0 +1,6 @@
+path_customer = 'customer.csv'
+path_ind_customer = 'ind_customer.csv'
+path_product = 'product.csv'
+path_product_dim = 'product_dim.csv'
+path_location = 'location.csv'
+path_country = 'country.csv'

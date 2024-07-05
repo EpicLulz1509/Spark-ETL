@@ -8,7 +8,7 @@ from pyspark.sql.functions import *
 ### create spark object
 spark = SparkSession.builder.appName('Spark12345').getOrCreate()
 
-### file options
+### file options    
 file_type = "csv"
 first_row_is_header = "True"
 delimiter = ","
@@ -29,4 +29,4 @@ def createCustomerTable(path):
     
     return customer_target_df
 
-# df.write.format_csv
+# df.write.format_csv 
