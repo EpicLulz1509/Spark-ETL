@@ -31,3 +31,5 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run script
         run: python main.py 
+      - name: Run dashboard
+        run: python dashboard.py 
