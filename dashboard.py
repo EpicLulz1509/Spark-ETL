@@ -28,7 +28,7 @@ st.set_page_config(
 alt.themes.enable("dark")
 alt.renderers.enable("mimetype")
 
-df = pd.read_csv('tgtdata\customer.csv')
+df = pd.read_csv('tgtdata/customer.csv')
 
 with st.sidebar:
     st.title('Customer Locations')
