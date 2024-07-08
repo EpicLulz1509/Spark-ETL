@@ -5,15 +5,6 @@ import altair as alt
 import plotly.express as px
 from azure_read import *
 from paths import *
-from pyspark.sql import SparkSession
-from pyspark.sql import *
-from pyspark.sql import functions as F
-from pyspark.sql.functions import *
-import pyspark.pandas as ps
-
-### create spark object
-spark = SparkSession.builder.appName('Spark12345').getOrCreate()
-spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "true")
 
 ### file options
 file_type = "csv"
@@ -34,14 +25,12 @@ with st.sidebar:
     st.title('Customer Locations')
     
 def customer_location(customer_df, location_df, country_df):
-    
-    customer_df = spark.createDataFrame(customer_df)
-    location_df = spark.createDataFrame(location_df)
-    country_df = spark.createDataFrame(country_df)
 
-    new_df = customer_df.join(location_df, (customer_df['LocationId'] == location_df['LocationId'])).join(country_df, (country_df['CountryId'] == location_df['CountryId']))
-    new_df = new_df.select(F.col("CustomerId"), F.col("CountryName"))
-    new_df = new_df.toPandas()
+    new_df = customer_df.merge(location_df, on='LocationId', how='inner').merge(country_df, on='CountryId', how='inner')
+    
+    # new_df = customer_df.join(location_df, (customer_df['LocationId'] == location_df['LocationId'])).join(country_df, (country_df['CountryId'] == location_df['CountryId']))
+    # new_df = new_df.select(F.col("CustomerId"), F.col("CountryName"))
+    # new_df = new_df.toPandas()
     
     cust_group_by_location = new_df.groupby('CountryName', as_index=False)['CustomerId'].count()
     
