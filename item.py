@@ -15,9 +15,12 @@ delimiter = ","
 
 product_schema = product_schema()
 
-product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema).load("srcdata\ProductData\ProductData.csv")
+def createItemTable(path):
+    product_data_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).schema(product_schema).load("srcdata/ProductData/ProductData.csv")
 
-item_target_df = product_data_df.select(F.col("SKU").alias("ItemSku"), F.col("StandardCost"), F.col("ListPrice"))
-item_target_df = item_target_df.distinct()
+    item_target_df = product_data_df.select(F.col("SKU").alias("ItemSku"), F.col("StandardCost"), F.col("ListPrice"))
+    item_target_df = item_target_df.distinct()
 
-item_target_df.toPandas().to_csv('tgtdata\item.csv', index=False)
+    item_target_df.toPandas().to_csv(path, index=False)
+
+    return item_target_df

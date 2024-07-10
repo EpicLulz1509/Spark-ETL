@@ -6,6 +6,8 @@ from product import *
 from product_dim import *
 from country import *
 from location import *
+from item import *
+from territory import *
 from azure_save import *
 from pyspark.sql import SparkSession
 import pandas as pd
@@ -27,6 +29,8 @@ def createTablesSet1():
     product_dim_df = createProductDimTable(f"{local}/{path_product_dim}")
     location_df = createLocationTable(f"{local}/{path_location}")
     country_df = createCountryTable(f"{local}/{path_country}")
+    item_df = createItemTable(f"{local}/{path_item}")
+    territory_df = createTerritoryTable(f"{local}/{path_territory}")
     
     save_blob(customer_df, f"{path_customer}")
     save_blob(ind_customer_df, f"{path_ind_customer}")
@@ -34,5 +38,7 @@ def createTablesSet1():
     save_blob(product_dim_df, f"{path_product_dim}")
     save_blob(location_df, f"{path_location}")
     save_blob(country_df, f"{path_country}")
+    save_blob(item_df, f"{path_item}")
+    save_blob(territory_df, f"{path_territory}")
 
 createTablesSet1()

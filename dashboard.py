@@ -45,14 +45,44 @@ def customer_location(customer_df, location_df, country_df):
     return choropleth
 
 
+def item_categories(item_df, product_df, product_dim_df):
+
+    new_df = item_df.merge(product_df, on='ItemSku', how='inner').merge(product_dim_df, on='ProductId', how='inner')
+    new_df = new_df.groupby('Category', as_index=False)['ProductId'].count()
+    
+    fig = px.pie(new_df, values = "ProductId", names = "Category", title = "Product Categorization")
+    return fig
+
+def item_sub_categories(item_df, product_df, product_dim_df):
+
+    new_df = item_df.merge(product_df, on='ItemSku', how='inner').merge(product_dim_df, on='ProductId', how='inner')
+    new_df = new_df.groupby('Subcategory', as_index=False)['ProductId'].count()
+    
+    fig = px.bar(new_df, x = "Subcategory", y = "ProductId", title = "Product Categorization : Sub Categories")
+    return fig
+
+
 def render_graphs():    
     col = st.columns((1), gap='medium')
     customer_df = read_data(path_customer)
     location_df = read_data(path_location)
     country_df = read_data(path_country)
+    item_df = read_data(path_item)
+    product_df = read_data(path_product)
+    product_dim_df = read_data(path_product_dim)
     
     with col[0]:
         plot = customer_location(customer_df, location_df, country_df)
+        # st.altair_chart(plot)
+        st.plotly_chart(plot)
+    
+    with col[0]:
+        plot = item_categories(item_df, product_df, product_dim_df)
+        # st.altair_chart(plot)
+        st.plotly_chart(plot)
+    
+    with col[0]:
+        plot = item_sub_categories(item_df, product_df, product_dim_df)
         # st.altair_chart(plot)
         st.plotly_chart(plot)
 

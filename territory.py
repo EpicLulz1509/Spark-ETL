@@ -15,10 +15,14 @@ delimiter = ","
 
 sales_territory_schema = sales_territory_schema()
 
-sales_territory_df = spark.read.format(file_type).option("sep", delimiter).schema(sales_territory_schema).load("srcdata\SalesTerritory\SalesTerritory.csv")
-product_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata\product.csv")
+def createTerritoryTable(path):
 
-territory_target_df = sales_territory_df.select(F.col("Region"), F.col("Country"),  F.col("Group"), F.col("SalesTerritoryKey")).distinct()
-territory_target_df = territory_target_df.select(F.col("SalesTerritoryKey").alias("TerritoryId"), F.col("Group"), F.col("Country"), F.col("Region")).orderBy("TerritoryId")
+    sales_territory_df = spark.read.format(file_type).option("sep", delimiter).schema(sales_territory_schema).load("srcdata/SalesTerritory/SalesTerritory.csv")
+    product_target_df = spark.read.format(file_type).option("sep", delimiter).option("header", first_row_is_header).load("tgtdata/product.csv")
 
-territory_target_df.toPandas().to_csv('tgtdata\\territory.csv', index=False) 
+    territory_target_df = sales_territory_df.select(F.col("Region"), F.col("Country"),  F.col("Group"), F.col("SalesTerritoryKey")).distinct()
+    territory_target_df = territory_target_df.select(F.col("SalesTerritoryKey").alias("TerritoryId"), F.col("Group"), F.col("Country"), F.col("Region")).orderBy("TerritoryId")
+
+    territory_target_df.toPandas().to_csv(path, index=False) 
+
+    return territory_target_df
